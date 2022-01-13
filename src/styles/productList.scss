@@ -1,0 +1,48 @@
+.productListImage {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.productListBlockView {
+  width: 180px;
+  height: 450px;
+}
+
+.productImage img{
+  height: 500px;
+  object-fit: cover;
+}
+
+.productImageItem {
+  height: 150px;
+  width: auto;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.favouriteAndCartButton {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.originalPrice {
+  text-decoration: line-through;
+}
+.specialPrice {
+  color: $danger;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .productListImage {
+    width: 100%;
+    height: 75vw;
+  }
+
+  .productListBlockView .productListImage {
+    width: 180px;
+    height: 180px;
+  }
+}

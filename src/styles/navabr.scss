@@ -1,0 +1,135 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 42;
+  opacity: 0.8;
+}
+
+header .navbar {
+  min-height: 60px;
+}
+
+.pushBody {
+  height: 60px;
+}
+
+/*Navbar CSS:*/
+.iconGroup {
+  position: absolute;
+  width: 175px;
+  padding: 0;
+  right: 5px;
+  top: 5px;
+}
+
+.navicon_web {
+  display: inline-block;
+  margin: 7px;
+  border: 0.5px solid #f7f7f7;
+  height: 40px;
+  width: 40px;
+}
+
+.navicon_web img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 7px;
+  bottom: 3px;
+  // color: #f7f7f7;
+}
+
+.navbar input {
+  // color: #6e8080;
+  // opacity: 0.5;
+  background-color: transparent;
+  border-radius: unset;
+}
+
+.brand_web {
+  width: 250px;
+  position: absolute;
+  top: 0;
+  left: 42%;
+}
+
+/*Navbar CSS:*/
+
+// @media only screen and (max-width: 375px) {
+//   /*Navbar CSS:*/
+//   .divider {
+//     display: none;
+//   }
+//   .brand_web {
+//     display: none;
+//   }
+//   .brand_mob {
+//     display: unset;
+//     width: 170px;
+//     float: left;
+//   }
+
+//   .navicon_web {
+//     display: none;
+//   }
+//   .navicon_mob {
+//     display: unset;
+//   }
+//   /*Navbar CSS:*/
+// }
+@media only screen and(max-width:768px) {
+  .brand_web {
+    width: 150px;
+    top: 10px;
+    left: 70px;
+  }
+}
+
+@media only screen and(max-width:576px) {
+  .brand_web {
+    width: 100px;
+    left: 75px;
+  }
+}
+
+@media only screen and(max-width:350px) {
+  .brand_web {
+    display: none;
+  }
+}
+
+@media only screen and(max-width:1200px) {
+  .divider {
+    display: none;
+  }
+  // .brand_web {
+  //   display: none;
+  // }
+  // .brand_mob {
+  //   display: unset;
+  //   width: 170px;
+  //   float: left;
+  // }
+}
+
+// @media only screen and(max-width:360px) {
+//   .navicon_mob {
+//     width: 30px;
+//     height: 30px;
+
+//     margin: 2px;
+//   }
+//   .navicon_mob img {
+//     width: 15px;
+//     height: 15px;
+
+//     position: relative;
+//     right: 7px;
+//     bottom: 6px;
+//   }
+// }
+// @media only screen and(max-width:320px) {
+//   .brand_mob {
+//     width: 120px;
+//   }
+// }
